@@ -1,0 +1,18 @@
+@charset "EUC-KR";
+/* css comments */
+
+	h1{
+		color:red;
+		background: black; 
+	}
+	#hh1{
+		color:yellow;
+		background: blue; 
+	}
+	.cc1{
+		color:pink;
+		background: red; 	 
+	}
+	p > span{ 
+		color:red;
+	}

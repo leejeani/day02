@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="css/css07.css">
+<style>
+	/* Global Header CSS ---------------------------------------------- */
+	*{
+		margin:0;
+		padding:0;
+	}
+	a{
+		text-decoration: none;
+		color:black;
+	}
+	ul,ol{
+		list-style: none;
+	}
+	/* Start Header CSS ---------------------------------------------- */
+	header{
+		width: 800px;
+		height:120px;
+		margin: 0 auto;
+		background: red; 
+	}
+	header > h1{
+		width: 500px;
+		height:50px; 
+		text-align: center; 
+		margin: 0 auto;  
+	}
+	header > #h_bottom{
+		width:500px;
+		height:40px; 
+		border-top: 3px solid black; 
+		border-bottom: 3px solid black;  
+		margin: 0 auto; 
+	}
+	header > #h_bottom > li{
+		float:left;
+		margin: 0 20px;    
+		line-height: 40px;
+	}
+	header > #h_bottom  > li > a:hover{ 
+		color:white;
+		font-weight: bold;
+	} 
+	header > #h_top{
+		width:800px;
+		height:20px;  
+	}
+	header > #h_top > li{
+		float:right; 
+	}
+	/* End  Header CSS ---------------------------------------------- */ 
+	
+	/* Start Nav CSS ---------------------------------------------- */
+	nav{
+		width: 800px;
+		height:30px;
+		margin: 0 auto;
+		background: #997000;  
+	}
+	/* End  Nav CSS ---------------------------------------------- */
+	
+	/* Start Section CSS ---------------------------------------------- */
+	section{
+		width: 800px;
+		height:600px;
+		margin: 0 auto;
+		background: #D5D5D5;  
+	}
+	section > aside{
+		float:left;  
+	}
+	section > #left_a{
+		width: 150px;
+		height:600px;
+		background: #F5D6D6;  
+	}
+	section > #center_a{
+		width: 550px;
+		height:600px;
+		background: #C6D6D6;  
+	}
+	section > #center_a > div{
+		width: 500px;
+		height: 250px;
+		border: 2px solid black;
+		margin: 10px auto; 
+	}
+	section > #center_a > div:hover{
+		background: gray;
+		border: 2px solid red;  
+	}
+	section > #right_a{
+		width: 100px;
+		height:600px;
+		background: #E7D6D6;    
+	}
+	section > #right_a > img{
+		display: block;
+		margin: 5px auto;
+	} 
+	/* End  Section CSS ---------------------------------------------- */
+	/* Start Footer CSS ---------------------------------------------- */
+	footer{
+		width: 800px;
+		height:30px;
+		margin: 0 auto;
+		background: black;   
+	}
+	/* End  Footer CSS ---------------------------------------------- */
+</style>
+</head>
+<body>
+	<header>
+		<ul id="h_top">
+			<li><a href="#">LOGIN</a></li>
+			<li><a href="#">REGISTER</a></li>
+			<li><a href="#">ABOUT US</a></li>
+		</ul>
+		<h1>HTML5 & CSS3.0</h1>
+		<ul id="h_bottom">
+			<li><a href="#">HTML5</a></li>
+			<li><a href="#">CSS3</a></li>
+			<li><a href="#">JavaScript</a></li>
+			<li><a href="#">jQuery</a></li>
+			<li><a href="#">AJAX</a></li>
+		</ul>
+	</header>
+	<nav>
+	</nav>
+	<section>
+		<aside id="left_a">
+			<div class="big_bt">
+	 			<a href="#">Click</a>
+			</div>
+			<div class="big_bt">
+	 			<a href="#">Click</a>
+			</div>
+			<div class="big_bt">
+	 			<a href="#">Click</a>
+			</div>
+		</aside>
+		<aside id="center_a">
+			<div></div>
+			<div></div>
+		</aside>
+		<aside id="right_a">
+			<img src="https://via.placeholder.com/80x50">
+			<img src="https://via.placeholder.com/80x50">
+			<img src="https://via.placeholder.com/80x50">
+			<img src="https://via.placeholder.com/80x50">
+			<img src="https://via.placeholder.com/80x50">
+		</aside>
+	</section>
+	<footer>
+	</footer>
+</body>
+</html>
+
+
+
+

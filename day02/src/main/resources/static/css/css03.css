@@ -1,0 +1,21 @@
+@charset "EUC-KR";
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:ital,wght@1,700&family=Noto+Sans+KR:wght@900&display=swap');
+
+	#cust_tb{
+		background-image: url("../img/bg.png"); 
+		width:300px;
+		border:1px solid black;
+		border-collapse: collapse;
+	} 
+	#cust_tb , tr , td, th{ 
+		border:1px solid black; 
+	} 
+	
+	#cust_tb > thead >  tr > th{
+	  font-family: 'Josefin Sans', sans-serif; 
+	}
+	
+	#cust_tb > tbody >  tr > td{
+		text-align: right; 
+		font-family: 'Noto Sans KR', sans-serif;
+	}

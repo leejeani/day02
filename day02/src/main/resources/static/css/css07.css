@@ -1,0 +1,27 @@
+@charset "EUC-KR";
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:ital,wght@1,700&family=Secular+One&display=swap');
+/* Big Button CSS Start -------------------------------------  */
+	.big_bt{
+		margin:5px auto;
+		width:120px; height:50px;
+		background-color:red;
+		border:3px solid white;
+		border-radius:20px;
+		box-shadow: 3px 3px 3px gray; 
+	} 
+	.big_bt > a{
+		font-family: 'Secular One', sans-serif;
+		display: block; 
+		text-align: center; 
+		font-size: 130%;
+		font-weight: bold;
+		color:white; 
+		line-height:50px;  
+	}
+	.big_bt:hover{
+	    border:3px solid yellow;
+	}
+	.big_bt > a:hover{
+		color:yellow; 
+	}
+	/* Big Button CSS End ---------------------------------------  */
